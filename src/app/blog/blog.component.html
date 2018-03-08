@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Temas</h1>
+  
+      <div *ngFor="let blogs of blog">
+          <div>
+            <h2>{{ blogs.titulo }},    {{ blogs.fecha }}</h2>
+          </div>
+          <div>
+              <p>{{ blogs.descripcion }}</p>
+            <img src="{{ blogs.foto }}">
+          </div>
+
+      </div>
+   
+ 
+</div>
